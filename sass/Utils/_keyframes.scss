@@ -10,11 +10,13 @@
   }
 }
 @keyframes rotate {
-  from{
-    -webkit-transform: rotate(0deg);
+  0% {
+  transform:rotate (360deg);
+}
+  50% {
   }
-  to{
-    -webkit-transform: rotate(360deg);
+  100% {
+  transfom: rotate (0deg);
   }
 }
 @keyframes loader {

@@ -404,12 +404,18 @@ footer ul .fa-hands-helping {
   padding: 20px;
   right: -50px;
   top: 0;
-  opacity: 0;
+  opacity: 1;
   transition: transform 450ms ease-in-out;
+}
+
+.meals:hover .cross {
+  opacity: 1;
+  transition: transform 450ms ease-in-out;
+  transform: translate(-50px);
 }
 .cross .fa-check-circle {
   color: #fff;
-  transition: transform 500ms 100ms ease-in-out;
+  transition: transform 500ms ease-in-out;
 }
 
 .line {
@@ -525,10 +531,7 @@ footer ul .fa-hands-helping {
 .meals:hover {
   padding-right: 75px;
 }
-.meals:hover .cross {
-  opacity: 1;
-  transform: translate(-50px);
-}
+
 .meals:hover .fa-check-circle {
   transform: rotate(360deg);
 }
